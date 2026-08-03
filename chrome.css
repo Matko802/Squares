@@ -1,37 +1,8 @@
-:root {
-  --zen-border-radius: 0px !important;
-  --zen-webview-border-radius: 0px !important;
-  --zen-toolbox-border-radius: 0px !important;
-  --zen-panel-radius: 0px !important;
-  --tab-border-radius: 0px !important;
-  --arrowpanel-border-radius: 0px !important;
-  --toolbarbutton-border-radius: 0px !important;
-  --identity-box-border-radius: 0px !important;
-  --urlbar-border-radius: 0px !important;
-  --urlbarView-border-radius: 0px !important;
+*,
+*::before,
+*::after {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    transition: none !important;
 }
-                                  */
-#main-window,
-#main-window * ,
-#main-window *::before,
-#main-window *::after {
-  border-radius: 0 !important;
-}
-                                         */
-panel,
-panel *,
-panel *::before,
-panel *::after,
-menupopup,
-menupopup *,
-tooltip,
-.panel-arrowcontent,
-.urlbarView,
-.urlbarView-row,
-#urlbar-background,
-#urlbar,
-#urlbar * {
-  border-radius: 0 !important;
-}
-}
-   ========================================================================== */
