@@ -8,7 +8,7 @@ Applies to tabs, panels, buttons, menus, and other UI elements
 <div align="center">
     <img src="image.png"
         title="Preview" width="600"/>
-        <h1>
+<h1>
     
 ## Compatibility
 Zen Browser 1.21.x and newer.
