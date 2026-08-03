@@ -2,7 +2,4 @@
 *::before,
 *::after {
     border-radius: 0px !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    transition: none !important;
 }
