@@ -5,7 +5,7 @@ Simple [Zen Browser](https://zen-browser.app/) Mod that "Squares" all rounded co
 ## Features
 Removes rounded corners from the browser UI
 Applies to tabs, panels, buttons, menus, and other UI elements
-<div align="center">
+<div align="left">
     <img src="image.png"
         title="Preview" width="600"/>
 <h1>
