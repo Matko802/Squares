@@ -1,10 +1,3 @@
-/* ==========================================================================
-   Sharp Corners — Zen Browser mod
-   Removes rounded corners from Zen's browser chrome (tabs, sidebar, urlbar,
-   panels, popups, buttons, findbar, etc).
-   ========================================================================== */
-
-/* --- 1. Kill Zen's own radius variables at the root ---------------------- */
 :root {
   --zen-border-radius: 0px !important;
   --zen-webview-border-radius: 0px !important;
@@ -17,19 +10,14 @@
   --urlbar-border-radius: 0px !important;
   --urlbarView-border-radius: 0px !important;
 }
-
-/* --- 2. Sledgehammer fallback ---------------------------------------------
-   Catches anything above missed — every chrome element and its pseudo-
-   elements get border-radius forced to 0.                                  */
+                                  */
 #main-window,
 #main-window * ,
 #main-window *::before,
 #main-window *::after {
   border-radius: 0 !important;
 }
-
-/* --- 3. Popups/panels live outside #main-window in their own frames,
-   so they need their own rule.                                             */
+                                         */
 panel,
 panel *,
 panel *::before,
@@ -45,13 +33,5 @@ tooltip,
 #urlbar * {
   border-radius: 0 !important;
 }
-
-/* --- 4. Optional: if you want small circular indicators (workspace dots,
-   the tab-loading spinner, avatar/profile icons) to stay round, exclude
-   them here instead of relying on the blanket rule above:
-
-#main-window .zen-workspace-indicator-dot,
-#main-window .tab-throbber {
-  border-radius: 50% !important;
 }
    ========================================================================== */
