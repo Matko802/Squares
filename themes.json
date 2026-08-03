@@ -1,7 +1,7 @@
 {
   "24d906a0-3e82-419c-8659-0c4880bc6044": {
     "id": "24d906a0-3e82-419c-8659-0c4880bc6044",
-    "name": "Sharp Corners",
+    "name": "Squares",
     "description": "Removes rounded corners from all Zen Browser UI elements — tabs, sidebar, urlbar, panels, popups, buttons, and findbar.",
     "style": "https://raw.githubusercontent.com/Matko802/Squares/refs/heads/main/chrome.css",
     "author": "Matko802",
